@@ -20,3 +20,4 @@ torch
 tqdm
 uvicorn
 pydantic==1.10.9
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
